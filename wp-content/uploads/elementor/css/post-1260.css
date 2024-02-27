@@ -1,0 +1,29 @@
+.elementor-1260 .elementor-element.elementor-element-d2d92bb{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--background-transition:0.3s;--overlay-opacity:0.2;--padding-block-start:100px;--padding-block-end:150px;--padding-inline-start:0px;--padding-inline-end:0px;}.elementor-1260 .elementor-element.elementor-element-d2d92bb:not(.elementor-motion-effects-element-type-background), .elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-1260 .elementor-element.elementor-element-d2d92bb::before, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-background-video-container::before, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-background-video-container::before, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-background-slideshow::before, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-background-slideshow::before, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';background-image:url("https://raya2024.lavish-site.com/wp-content/uploads/2024/02/Background-Overlay-scaled.webp");background-repeat:repeat;background-size:contain;}.elementor-1260 .elementor-element.elementor-element-d2d92bb, .elementor-1260 .elementor-element.elementor-element-d2d92bb::before{--border-transition:0.3s;}.elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-shape-top .elementor-shape-fill, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-top .elementor-shape-fill{fill:var( --e-global-color-primary );}.elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-shape-top svg, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-top svg{width:calc(145% + 1.3px);}.elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-shape-bottom .elementor-shape-fill, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-bottom .elementor-shape-fill{fill:var( --e-global-color-primary );}.elementor-1260 .elementor-element.elementor-element-d2d92bb > .elementor-shape-bottom svg, .elementor-1260 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-bottom svg{width:calc(120% + 1.3px);height:160px;}.elementor-1260 .elementor-element.elementor-element-c482839{text-align:center;}.elementor-1260 .elementor-element.elementor-element-c482839 .elementor-heading-title{color:#000000;font-family:"Unity", Sans-serif;font-size:50px;font-weight:bold;text-transform:uppercase;}.elementor-1260 .elementor-element.elementor-element-c482839 > .elementor-widget-container{margin:50px 0px 50px 0px;padding:0px 0px 0px 0px;}.elementor-1260 .elementor-element.elementor-element-c1909d9{--display:flex;--background-transition:0.3s;}.elementor-1260 .elementor-element.elementor-element-c1909d9:not(.elementor-motion-effects-element-type-background), .elementor-1260 .elementor-element.elementor-element-c1909d9 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-text );}.elementor-1260 .elementor-element.elementor-element-c1909d9, .elementor-1260 .elementor-element.elementor-element-c1909d9::before{--border-transition:0.3s;}@media(max-width:767px){.elementor-1260 .elementor-element.elementor-element-c482839 .elementor-heading-title{font-size:25px;}}@media(min-width:768px){.elementor-1260 .elementor-element.elementor-element-d2d92bb{--content-width:1400px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityText-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityCondensed-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityHeadline-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityHeadline-Regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

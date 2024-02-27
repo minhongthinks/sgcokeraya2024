@@ -1,0 +1,292 @@
+[08-Feb-2024 08:38:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '15', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1539): GFFormsModel::update_entry_property('15', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/entry_list.php(1487): GFFormsModel::update_entries_property(Array, 'status', 'trash')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/entry_list.php(724): GF_Entry_List_Table->process_action()
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/entry_list.php(327): GF_Entry_List_Table->prepare_items()
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/entry_list.php(108): GFEntryList::leads_page('1')
+#8 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(3875): GFEntryList::all_entries_page()
+#9 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::all_leads_page('')
+#10 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin.php(259): do_action('forms_page_gf_e...')
+#13 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '14', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('14', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '13', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('13', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '12', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('12', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:15 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '11', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('11', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '9', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('9', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:17 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '10', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('10', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '7', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('7', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '8', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('8', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '5', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('5', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:23 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '6', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('6', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '4', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('4', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '3', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('3', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '1', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('1', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2024 08:38:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class vxg_googlesheets does not have a method "entry_status" in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/forms_model.php(1596): do_action('gform_update_st...', '2', 'trash', 'active')
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(4304): GFFormsModel::update_entry_property('2', 'status', 'trash')
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): GFForms::update_lead_status('')
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#8 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php on line 324
+[13-Feb-2024 05:38:13 UTC] PHP Warning:  Attempt to read property "title" on null in /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-customize-widgets.php on line 905
+[13-Feb-2024 08:18:37 UTC] PHP Warning:  Undefined array key "editor_post_id" in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 171
+[19-Feb-2024 01:33:49 UTC] PHP Warning:  Undefined array key "editor_post_id" in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/fonts-manager.php on line 252
+[19-Feb-2024 10:31:51 UTC] PHP Fatal error:  Uncaught ValueError: array_rand(): Argument #2 ($num) must be between 1 and the number of elements in argument #1 ($array) in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php:156
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(156): array_rand(Array, 0)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(46): GFRandomFields->get_selected_field_ids(false, Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(326): GFRandomFields->pre_render(Array)
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(7016): apply_filters('gform_pre_rende...', Array, false, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/form_display.php(992): gf_apply_filters('gform_pre_rende...', Array, false, Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(3337): GFFormDisplay::get_form('2', true, true, false, Array, false, 0)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(2026): GFForms::get_form('2', true, true, false, Array, false, 0)
+#8 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(433): GFForms::parse_shortcode(Array, '', 'gravityform')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(gravit...', 'do_shortcode_ta...', '[gravityform id...')
+#11 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/widgets/shortcode.php(133): do_shortcode('[gravityform id...')
+#12 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#13 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#14 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/base/document.php(328): Elementor\Widget_Base->render_content()
+#15 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/managers/widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#16 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#17 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#18 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#19 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#22 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php on line 156
+[19-Feb-2024 10:31:54 UTC] PHP Fatal error:  Uncaught ValueError: array_rand(): Argument #2 ($num) must be between 1 and the number of elements in argument #1 ($array) in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php:156
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(156): array_rand(Array, 0)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(46): GFRandomFields->get_selected_field_ids(false, Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(326): GFRandomFields->pre_render(Array)
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(7016): apply_filters('gform_pre_rende...', Array, false, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/form_display.php(992): gf_apply_filters('gform_pre_rende...', Array, false, Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(3337): GFFormDisplay::get_form('2', true, true, false, Array, false, 0)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(2026): GFForms::get_form('2', true, true, false, Array, false, 0)
+#8 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(433): GFForms::parse_shortcode(Array, '', 'gravityform')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(gravit...', 'do_shortcode_ta...', '[gravityform id...')
+#11 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/widgets/shortcode.php(133): do_shortcode('[gravityform id...')
+#12 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#13 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#14 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/base/document.php(328): Elementor\Widget_Base->render_content()
+#15 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/managers/widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#16 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#17 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#18 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#19 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#22 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php on line 156
+[19-Feb-2024 10:31:55 UTC] PHP Fatal error:  Uncaught ValueError: array_rand(): Argument #2 ($num) must be between 1 and the number of elements in argument #1 ($array) in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php:156
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(156): array_rand(Array, 0)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(46): GFRandomFields->get_selected_field_ids(false, Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(326): GFRandomFields->pre_render(Array)
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(7016): apply_filters('gform_pre_rende...', Array, false, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/form_display.php(992): gf_apply_filters('gform_pre_rende...', Array, false, Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(3337): GFFormDisplay::get_form('2', false, true, false, Array, false, 0)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(2026): GFForms::get_form('2', false, true, false, Array, false, 0)
+#8 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(433): GFForms::parse_shortcode(Array, '', 'gravityform')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(gravit...', 'do_shortcode_ta...', '[gravityform id...')
+#11 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/widgets/shortcode.php(133): do_shortcode('[gravityform id...')
+#12 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#13 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#14 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/base/document.php(328): Elementor\Widget_Base->render_content()
+#15 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/managers/widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#16 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#17 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#18 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#19 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#22 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php on line 156
+[19-Feb-2024 10:31:58 UTC] PHP Fatal error:  Uncaught ValueError: array_rand(): Argument #2 ($num) must be between 1 and the number of elements in argument #1 ($array) in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php:156
+Stack trace:
+#0 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(156): array_rand(Array, 0)
+#1 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php(46): GFRandomFields->get_selected_field_ids(false, Array)
+#2 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(326): GFRandomFields->pre_render(Array)
+#3 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#4 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(7016): apply_filters('gform_pre_rende...', Array, false, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/form_display.php(992): gf_apply_filters('gform_pre_rende...', Array, false, Array)
+#6 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(3337): GFFormDisplay::get_form('2', false, true, false, Array, false, 0)
+#7 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gravityforms/gravityforms.php(2026): GFForms::get_form('2', false, true, false, Array, false, 0)
+#8 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(433): GFForms::parse_shortcode(Array, '', 'gravityform')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(gravit...', 'do_shortcode_ta...', '[gravityform id...')
+#11 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/widgets/shortcode.php(133): do_shortcode('[gravityform id...')
+#12 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#13 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#14 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/base/document.php(328): Elementor\Widget_Base->render_content()
+#15 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/includes/managers/widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#16 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#17 /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#18 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#19 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 /home3/lavishsi/raya2024.lavish-site.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /home3/lavishsi/raya2024.lavish-site.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#22 {main}
+  thrown in /home3/lavishsi/raya2024.lavish-site.com/wp-content/plugins/gw-random-fields/gw-random-fields.php on line 156

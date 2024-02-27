@@ -1,0 +1,29 @@
+.elementor-144 .elementor-element.elementor-element-d2d92bb{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--background-transition:0.3s;--overlay-opacity:0.2;--padding-block-start:100px;--padding-block-end:150px;--padding-inline-start:0px;--padding-inline-end:0px;}.elementor-144 .elementor-element.elementor-element-d2d92bb:not(.elementor-motion-effects-element-type-background), .elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-144 .elementor-element.elementor-element-d2d92bb::before, .elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-background-video-container::before, .elementor-144 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-background-video-container::before, .elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-background-slideshow::before, .elementor-144 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-background-slideshow::before, .elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';background-image:url("https://raya2024.lavish-site.com/wp-content/uploads/2024/02/Background-Overlay-scaled.webp");background-repeat:repeat;background-size:contain;}.elementor-144 .elementor-element.elementor-element-d2d92bb, .elementor-144 .elementor-element.elementor-element-d2d92bb::before{--border-transition:0.3s;}.elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-shape-top .elementor-shape-fill, .elementor-144 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-top .elementor-shape-fill{fill:var( --e-global-color-primary );}.elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-shape-top svg, .elementor-144 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-top svg{width:calc(145% + 1.3px);}.elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-shape-bottom .elementor-shape-fill, .elementor-144 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-bottom .elementor-shape-fill{fill:var( --e-global-color-primary );}.elementor-144 .elementor-element.elementor-element-d2d92bb > .elementor-shape-bottom svg, .elementor-144 .elementor-element.elementor-element-d2d92bb > .e-con-inner > .elementor-shape-bottom svg{width:calc(120% + 1.3px);height:160px;}.elementor-144 .elementor-element.elementor-element-c482839{text-align:center;}.elementor-144 .elementor-element.elementor-element-c482839 .elementor-heading-title{color:#000000;font-family:"Unity", Sans-serif;font-size:50px;font-weight:bold;text-transform:uppercase;}.elementor-144 .elementor-element.elementor-element-c482839 > .elementor-widget-container{margin:50px 0px 50px 0px;padding:0px 0px 0px 0px;}.elementor-144 .elementor-element.elementor-element-80e83b7{color:#000000;font-family:"Unity", Sans-serif;font-weight:400;}.elementor-144 .elementor-element.elementor-element-80e83b7 > .elementor-widget-container{padding:50px 50px 50px 50px;background-color:var( --e-global-color-text );border-radius:20px 20px 20px 20px;}.elementor-144 .elementor-element.elementor-element-7708f87 .elementor-button{font-family:"Unity", Sans-serif;font-size:25px;font-weight:bold;background-color:var( --e-global-color-97e9661 );border-style:none;border-radius:15px 0px 15px 0px;box-shadow:15px 0px 1px 0px rgba(255, 255, 255, 0.54);padding:15px 30px 15px 30px;}.elementor-144 .elementor-element.elementor-element-7708f87 .elementor-button:hover, .elementor-144 .elementor-element.elementor-element-7708f87 .elementor-button:focus{background-color:var( --e-global-color-primary );}@media(max-width:767px){.elementor-144 .elementor-element.elementor-element-c482839 .elementor-heading-title{font-size:25px;}.elementor-144 .elementor-element.elementor-element-80e83b7{font-size:12px;}.elementor-144 .elementor-element.elementor-element-80e83b7 > .elementor-widget-container{padding:15px 15px 15px 15px;}.elementor-144 .elementor-element.elementor-element-7708f87 .elementor-button{font-size:15px;}}@media(min-width:768px){.elementor-144 .elementor-element.elementor-element-d2d92bb{--content-width:1400px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityText-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityCondensed-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityHeadline-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Unity';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://raya2024.lavish-site.com/wp-content/uploads/2023/05/TCCC-UnityHeadline-Regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
